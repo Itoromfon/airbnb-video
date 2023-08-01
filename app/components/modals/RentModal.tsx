@@ -86,7 +86,7 @@ const RentModal = () => {
         /* We are going to rerender this dynamic Map
            every time location changes
         */
-    }, [location]);
+    }, []);
 
     const setCustomValue = (id: string, value: any) => {
         setValue(id, value, {

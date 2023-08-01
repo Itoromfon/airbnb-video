@@ -47,7 +47,7 @@ const SearchModal = () => {
                we change our location.
             */
         })
-    }, [location]);
+    }, []);
 
     const onBack = useCallback(() => {
         setStep((prevStep) => prevStep - 1);
