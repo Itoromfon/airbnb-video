@@ -1,7 +1,7 @@
 'use client';
 
 import { 
-    FieldError, 
+    FieldErrors,
     FieldValues, 
     UseFormRegister 
 } from "react-hook-form";
@@ -15,7 +15,7 @@ interface InputProps {
     formatPrice?: boolean;
     required?: boolean;
     register: UseFormRegister<FieldValues>,
-    errors: FieldError 
+    errors: FieldErrors;
 }
 
 const Input: React.FC<InputProps> = ({

@@ -56,7 +56,7 @@ const RentModal = () => {
             errors,
         },
         reset
-    } = useForm<FieldValue>({
+    } = useForm<FieldValues>({
         //the default value for this form will be
         defaultValues: {
             category: '',
