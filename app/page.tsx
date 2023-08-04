@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic'
+
 import Link from "next/link"
 import ClientOnly from "./components/ClientOnly";
 import Container from "./components/Container";
